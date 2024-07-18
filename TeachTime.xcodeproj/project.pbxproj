@@ -37,6 +37,7 @@
 		08718BF52C48BF7E00A94A7B = {
 			isa = PBXGroup;
 			children = (
+				08718C0F2C48BFAD00A94A7B /* README.md */,
 				08718C002C48BF7E00A94A7B /* TeachTime */,
 				08718BFF2C48BF7E00A94A7B /* Products */,
 			);
@@ -57,7 +58,6 @@
 				08718C032C48BF7E00A94A7B /* ContentView.swift */,
 				08718C052C48BF8000A94A7B /* Assets.xcassets */,
 				08718C072C48BF8000A94A7B /* Preview Content */,
-				08718C0F2C48BFAD00A94A7B /* README.md */,
 				08718C102C48C0C700A94A7B /* API.md */,
 			);
 			path = TeachTime;

@@ -4,8 +4,6 @@
 ```
 https://api.example.com/v1
 ```
-
-#### 엔드포인트:
 1. **GET /schedules**
     - 설명: 모든 수업 일정을 가져옵니다.
     - 요청 예시:
