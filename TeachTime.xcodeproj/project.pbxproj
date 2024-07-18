@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085A737F2C48C75700852389 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A737E2C48C75700852389 /* Schedule.swift */; };
+		085A73812C48C79C00852389 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A73802C48C79C00852389 /* ScheduleViewModel.swift */; };
+		085A73832C48C7E200852389 /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A73822C48C7E200852389 /* ScheduleListView.swift */; };
+		085A73852C48C7F300852389 /* ScheduleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A73842C48C7F300852389 /* ScheduleDetailView.swift */; };
+		085A73872C48C80200852389 /* AddEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A73862C48C80200852389 /* AddEditView.swift */; };
+		085A73892C48C81000852389 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A73882C48C81000852389 /* Config.swift */; };
 		08718C022C48BF7E00A94A7B /* TeachTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08718C012C48BF7E00A94A7B /* TeachTimeApp.swift */; };
 		08718C042C48BF7E00A94A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08718C032C48BF7E00A94A7B /* ContentView.swift */; };
 		08718C062C48BF8000A94A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08718C052C48BF8000A94A7B /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085A737E2C48C75700852389 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		085A73802C48C79C00852389 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		085A73822C48C7E200852389 /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		085A73842C48C7F300852389 /* ScheduleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailView.swift; sourceTree = "<group>"; };
+		085A73862C48C80200852389 /* AddEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditView.swift; sourceTree = "<group>"; };
+		085A73882C48C81000852389 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		08718BFE2C48BF7E00A94A7B /* TeachTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeachTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08718C012C48BF7E00A94A7B /* TeachTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachTimeApp.swift; sourceTree = "<group>"; };
 		08718C032C48BF7E00A94A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +46,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085A73792C48C6A500852389 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				085A737E2C48C75700852389 /* Schedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		085A737A2C48C6B400852389 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				085A73802C48C79C00852389 /* ScheduleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		085A737C2C48C6FD00852389 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				085A73822C48C7E200852389 /* ScheduleListView.swift */,
+				085A73862C48C80200852389 /* AddEditView.swift */,
+				085A73842C48C7F300852389 /* ScheduleDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		085A737D2C48C71000852389 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				085A73882C48C81000852389 /* Config.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		08718BF52C48BF7E00A94A7B = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +100,13 @@
 		08718C002C48BF7E00A94A7B /* TeachTime */ = {
 			isa = PBXGroup;
 			children = (
+				08718C052C48BF8000A94A7B /* Assets.xcassets */,
 				08718C012C48BF7E00A94A7B /* TeachTimeApp.swift */,
 				08718C032C48BF7E00A94A7B /* ContentView.swift */,
-				08718C052C48BF8000A94A7B /* Assets.xcassets */,
+				085A73792C48C6A500852389 /* Models */,
+				085A737A2C48C6B400852389 /* ViewModels */,
+				085A737C2C48C6FD00852389 /* Views */,
+				085A737D2C48C71000852389 /* Utilities */,
 				08718C072C48BF8000A94A7B /* Preview Content */,
 				08718C102C48C0C700A94A7B /* API.md */,
 			);
@@ -141,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085A73832C48C7E200852389 /* ScheduleListView.swift in Sources */,
+				085A737F2C48C75700852389 /* Schedule.swift in Sources */,
+				085A73852C48C7F300852389 /* ScheduleDetailView.swift in Sources */,
 				08718C042C48BF7E00A94A7B /* ContentView.swift in Sources */,
 				08718C022C48BF7E00A94A7B /* TeachTimeApp.swift in Sources */,
+				085A73892C48C81000852389 /* Config.swift in Sources */,
+				085A73812C48C79C00852389 /* ScheduleViewModel.swift in Sources */,
+				085A73872C48C80200852389 /* AddEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

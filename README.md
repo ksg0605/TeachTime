@@ -105,3 +105,23 @@
    - 주요 기능 및 시나리오 테스트.
 7. **프로젝트 문서 작성:**
    - 프로젝트 설명서 및 코드 주석 작성.
+
+### 프로젝트 구조 예시:
+
+프로젝트의 폴더 구조를 다음과 같이 설정할 수 있습니다.
+
+```
+TeachTime/
+├── TeachTimeApp.swift
+├── ContentView.swift
+├── Models/
+│   └── Schedule.swift
+├── ViewModels/
+│   └── ScheduleViewModel.swift
+├── Views/
+│   ├── ScheduleListView.swift
+│   ├── ScheduleDetailView.swift
+│   └── AddEditView.swift
+└── Utilities/
+    └── Config.swift
+```
